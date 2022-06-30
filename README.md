@@ -65,4 +65,4 @@ The objective of this project was to analyze the results of various supervised m
   - Recall: 0.91/0.94
  
  ## Summary
- 
+ The three metrics measured were Balanced Accuracy Score (how often the model correctly classified credit risk), Precision (how reliable the positive classification is AKA how often a positive classification is actually positive), and recall (the model's ability to find all of the positive samples). To determine the best method out of the ones tested we are looking for the model that has the highest values in each category. Therefore, the EasyEnsemble AdaBoost classifier should be the method of choice. It has by far the highest accuracy score with 0.925 (with 1.0 being the highest), the highest precision for high-risk credit, a 1.0 precision for low-risk credit and the highest recall score for both high-risk and low-risk with scores being over 0.90 for both. I would reccomend using the EasyEnsemble AdaBoost classifier.
